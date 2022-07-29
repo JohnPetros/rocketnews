@@ -25,7 +25,7 @@ body {
 }
 
 main#content {
-    width: 50vw;
+    width: 45vw;
     background-color: var(--body-bg-color);
     z-index: 10;
 }
@@ -148,7 +148,7 @@ main#content {
 }
 
 #landingPage-Image {
-    width: 50vw;
+    width: 55vw;
 }
 
 #landingPage-Image img {
