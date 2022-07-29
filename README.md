@@ -1,5 +1,5 @@
 <h1 align="center">
-  Social Tree
+  Rocket News
 </h1>
 
 ![Rocket News - Google Chrome 29_07_2022 13_16_55](https://user-images.githubusercontent.com/93893533/181801665-133b95cc-c107-48dd-bb22-16f6707357fe.png)
@@ -10,7 +10,7 @@
 
 Projeto de uma página para captação de leads ou newsletter.
 
- <h3 align="center"><a href="https://johnpetros.github.io/social-tree/">Veja a Página funcionando 👀</a></h3>
+ <h3 align="center"><a href="https://johnpetros.github.io/rocketnews/">Veja a Página funcionando 👀</a></h3>
 
 ## 🧪 Tecnologias
 
