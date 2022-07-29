@@ -1,0 +1,157 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+
+    overflow: hidden;
+
+}
+
+main#content {
+    width: 50vw;
+    background-color: var(--body-bg-color);
+    z-index: 10;
+}
+
+#icon {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-bottom: 92px;
+    width: 389px;
+    height: 94px;
+}
+
+#icon img {
+    width: 100%;
+}
+
+#content header {
+    width: 647px;
+    height: 102px;
+    margin-left: 5%;
+}
+
+#content header h2 {
+    color: var(--title-color);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+}
+
+#content header h3, h4 {
+    color: var(--text-color);
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+#content header h4 {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+#form {
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 798px;
+    height: 84px;
+    color: var(--form-color);
+    
+}
+
+#form label {
+
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+#form #input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17px;
+}
+
+#form #input input {
+    width: 100%;
+    height: 50px;
+    padding: 0 15px;
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+  
+}
+
+#form #input input::before {
+    content: '';
+    color: #fff;
+    width: 5px;
+    height: 50px;
+    background-color: var(--title-color);
+    position: relative;
+}
+
+#form #input #content-before {
+    width: 5px;
+    height: 50px;
+    background-color: var(--title-color);
+}
+
+#form #input #input-button {
+    background-color: var(--bg-button-color);
+    border: none;
+    width: 48px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#link {
+    margin-top: 50px;
+    margin-left: 36px;
+    width: 196px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: var(--bg-button-color);
+}
+
+#link a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    gap: 10px;
+}
+
+#link a p {
+    line-height: 25px;
+}
+
+#landingPage-Image {
+    width: 50vw;
+}
+
+#landingPage-Image img {
+    width: 100%;
+    height: 100%;
+}
